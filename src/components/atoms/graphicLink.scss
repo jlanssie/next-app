@@ -1,0 +1,13 @@
+@import "../../styles/variables.scss";
+
+a {
+  img {
+    height: 2rem;
+    width: 2rem;
+
+    &:hover,
+    &:focus {
+      filter: brightness(0);
+    }
+  }
+}

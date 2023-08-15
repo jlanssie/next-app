@@ -1,4 +1,5 @@
-import { Navigation } from "../components/molecules";
+import { Navigation } from "../../components";
+import "./header.scss";
 
 export const Header = () => {
   return (

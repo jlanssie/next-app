@@ -1,4 +1,5 @@
-import { GraphicLink } from "../components/atoms";
+import { GraphicLink } from "../../components";
+import "./footer.scss";
 
 export const Footer = () => {
   return (

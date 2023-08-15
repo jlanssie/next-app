@@ -1,8 +1,7 @@
-import "../main.scss";
 import Script from "next/script";
-import { Layout } from "../layout";
+import { Layout } from "../templates";
 
-export const App = ({ Component, pageProps }) => {
+export const App = ({ Component, pageProps }: any) => {
   return (
     <>
       <Script id="google-tag-manager" strategy="afterInteractive">

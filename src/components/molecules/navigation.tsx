@@ -1,4 +1,5 @@
 import Link from "next/link";
+import "./navigation.scss";
 
 export const Navigation = () => {
   return (
