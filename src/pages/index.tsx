@@ -1,11 +1,11 @@
-import Image from "next/image";
+import { Image } from "../components";
 import "./index.scss";
 
 export const Home = () => {
   return (
     <section className="home">
         <div>
-          <img src="/avatar.jpg" className="circle" alt="A picture of me."/>
+          <Image baseUrl="/avatar/" className="circle" alt="A picture of me." loading="eager" />
         </div>
       <div>
         <h1>Hello</h1>
