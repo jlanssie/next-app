@@ -11,6 +11,9 @@ export const Navigation = () => {
         <li>
           <Link href="/example">Example</Link>
         </li>
+        <li>
+          <Link href="/catfacts">Example</Link>
+        </li>
       </ul>
     </nav>
   );
