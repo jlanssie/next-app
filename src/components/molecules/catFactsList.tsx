@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
+import "./catFactsList.scss";
 
 export const CatFacts = () => {
   const [loading, setLoading] = useState(true);
