@@ -12,7 +12,7 @@ export const Navigation = () => {
           <Link href="/example">Example</Link>
         </li>
         <li>
-          <Link href="/catfacts">Example</Link>
+          <Link href="/catfacts">Cat Facts</Link>
         </li>
       </ul>
     </nav>

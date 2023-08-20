@@ -11,7 +11,7 @@ export const CatFacts = () => {
     )
       .then((response) => response.json())
       .then((payload) => {
-        console.debug(payload);
+        //console.debug(payload);
         setCatFacts(payload);
         setLoading(false);
       });
